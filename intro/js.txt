@@ -1,0 +1,83 @@
+var, let, const
+
+1.var x= 5;
+
+
+IN Es6
+let, const
+
+let:
+const x= 5; can't change in runtime
+
+car = "Tesla";
+console.log(car);
+
+
+if we can change a value in run time we can use let
+eg:
+leg car "BMW";
+console.log("one",car)
+
+car = "Tesla";
+console.log("two",car)
+
+arrow function:
+const test = () => {
+}
+
+
+all uses eg:
+<div id="div"> val</div>
+
+const sujan= dcoument.getElementById("divid").innerHTML;
+console.log(sujan)
+
+
+
+Data Types:
+const roll_no = 5; Number
+const name= "Sujan" String
+const students = ["sujan", "john", "Dave"] // Array-set of object
+const dave_info {name: "dave", age: 20, location: "nepal"} object(entity info)
+const isLogged = true;
+undefined
+
+strign:
+check var length
+const car = "tesla"
+console.log(car.length)
+console.lgo(car.toUpperCase());
+console.lgo(car.toLowerCase());
+
+
+
+array:
+array of string
+const dave = ["ram", "shyam"]
+object index start with 0
+dave[1] = "hari";
+console.log(dave)
+console.log(dave[2])
+dave.push("gita");
+
+
+
+
+array of number
+const num = [23,212]
+
+array of object
+const obj = [{name:"sujan"}]
+console.log(obj.length)
+
+
+
+
+
+
+
+
+
+
+
+
